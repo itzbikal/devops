@@ -1,6 +1,6 @@
 ---
 
-- hosts: boxes
+- hosts: ansible-node1
   gather_facts: true
   become: yes
   become_method: sudo
